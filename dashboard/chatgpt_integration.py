@@ -1,8 +1,7 @@
 from openai import OpenAI
-import config
 
 client = OpenAI(
-    api_key=config.openai_api_key,
+    api_key="openai_api_key",  ## use your OpenAI API key here
 )
 
 
